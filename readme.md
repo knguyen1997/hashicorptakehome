@@ -2,7 +2,7 @@
 
 Git is a version control system that allows you to manage your code and collaborate with others. Three common Git commands are push, pull, and fetch. Here's how they work:
 
-- `git push` - sends changes from a local branch to a remote repository
+- `git push`: This command sends changes from your local branch to a remote repository. `git push` takes the current branch and checks to see if there is a tracking branch for a remote repository connected to it. If so, your changes are taken from your branch and pushed to the remote branch. Doing this will make the remote branch to resemble your branch. However, if the remote branch has diverged from your local branch, meaning not all the commits in the remote branch are in your local branch, git push will fail. In this case, you need to synchronize your local branch with the remote branch using `git pull` or `git fetch` and `git merge`.
 - `git fetch` - retrieves changes from a remote repository into your tracking branch
 - `git pull` - retrieves changes from a remote branch into your tracking branch and merges them into a local branch
 
