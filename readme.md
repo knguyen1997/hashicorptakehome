@@ -1,5 +1,7 @@
 ### What is the difference between push, pull, and fetch?
 
+Git is a version control system that allows you to manage your code and collaborate with others. Three common Git commands are push, pull, and fetch. Here's how they work:
+
 - `git push` - sends changes from a local branch to a remote repository
 - `git fetch` - retrieves changes from a remote repository into your tracking branch
 - `git pull` - retrieves changes from a remote branch into your tracking branch and merges them into a local branch
